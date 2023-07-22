@@ -17,17 +17,18 @@
 <header>
     <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-light w-100">
+        <nav class="navbar navbar-expand-lg navbar-light w-100 position-relative">
 
             <div class="row w-100 h-100">
 
-              <div class="col-2 col-lg-2">
+              <div class="col-3 col-sm-2 col-lg-2">
                 <a class="navbar-brand d-block" href="#">
-                  <img src="image\pod-talk-logo.png" alt="logo">
+                  <img class=" " src="image\pod-talk-logo.png" alt="logo">
                 </a>
               </div>
 
-              <div class="col-8 col-lg-3 d-flex justify-content-center align-items-center">
+              <div class="col-6 col-sm-8 col-lg-3 d-flex justify-content-center align-items-center">
+
                 <form class="d-flex">
 
                   <input class="form-control search" type="search" placeholder="Search" aria-label="Search">
@@ -35,15 +36,18 @@
                   <button class="btn submit" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
 
                 </form>
+
               </div>
 
-              <div class="col-2 col-lg-7 d-flex justify-content-center align-items-center">
+              <div class="col-3 col-sm-2 col-lg-7 d-flex justify-content-center align-items-center">
 
                   <div class="content-nav w-100">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+
+                    <div class="collapse navbar-collapse justify-content-around position-absolute position-lg-static" id="navbarSupportedContent">
+
                       <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -66,15 +70,23 @@
                           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                         </li>
                       </ul>
+
                       <a href="#" class="start-btn btn rounded-pill">Get Started</a>
                     </div>
+
                   </div>
 
               </div>
 
             </div>
 
-          </nav>
+        </nav>
+
+        <div class="hero d-flex flex-column justify-content-between align-items-center h-100 gap-3 mt-5">
+          <h2 class="text-center">Listen to Pod Talk</h2>
+          <p class="text-center">Listen it everywhere. Explore your fav podcasts.</p>
+          <a class="btn text-center button-on rounded-pill" href="#">Start listining</a>
+        </div>
     </div>
 </header>
 <!-- -/head -->

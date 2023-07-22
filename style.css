@@ -8,17 +8,35 @@ html{
     --theme-color: #000000;
     --sono-font: 'Sono', sans-serif;
     --monserrat-font: 'Montserrat', sans-serif;
+    --btn-hover-color: #00cc99;
 }
 
 
 /* header */
+header{
+    background-image: url('image/templatemo-wave-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 428px;
+    max-height: 550px;
+    height: 100vh;
+}
 nav{
     height: 115px;
-    background-color: #7b98b5;
 }
 .navbar-brand img{
     width: 95px;
 }
+#navbarSupportedContent {
+    height: min-content !important;
+    background: var(--btn-hover-color);
+    left: 0;
+    right: 0;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
 #navbarSupportedContent ul li a{
     font-size: 1.4rem;
     font-family: var(--sono-font);
@@ -56,6 +74,9 @@ nav form .submit{
     border-top-right-radius: 22px;
     border-bottom-right-radius: 22px;
 }
+nav form .submit:hover{
+    background-color: var(--btn-hover-color);
+}
 #navbarSupportedContent{
     height: 60px;
 }
@@ -70,6 +91,35 @@ nav form .submit{
 .start-btn:hover{
     background-color: var(--secondary-color);
     color: var(--primary-color);
+}
+
+.hero h2{
+    font-size: 48px;
+    font-family: var(--sono-font);
+    font-weight: 700;
+    line-height: 58px;
+    color: var(--secondary-color);
+}
+.hero p{
+    font-size: 16px;
+    font-family: var(--monserrat-font);
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--secondary-color);
+}
+.hero a{
+    font-size: 16px;
+    font-family: var(--sono-font);
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+.button-on{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
+.button-on:hover{
+    background-color: var(--btn-hover-color);
+    color: var(--secondary-color);
 }
 /* -/header */
 
@@ -137,6 +187,7 @@ nav form .submit{
 
     /* ------- */
 
+    
     .content-nav{
         min-width: 507px;
         
@@ -174,7 +225,9 @@ nav form .submit{
         border-style: solid;
         border-color: transparent transparent whitesmoke transparent;
     }
-    
+    .hero h2{
+        font-size: 58px;
+    }
 
 }
 /* xl */
