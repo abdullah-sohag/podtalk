@@ -20,9 +20,9 @@ header{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 428px;
-    max-height: 550px;
-    height: 100vh;
+    /* min-height: 428px; */
+    height: 550px;
+    /* height: 100vh; */
 }
 nav{
     height: 115px;
@@ -87,6 +87,8 @@ nav form .submit:hover{
     color: var(--primary-color);
 }
 
+
+
 .hero h2{
     font-size: 48px;
     font-family: var(--sono-font);
@@ -122,9 +124,11 @@ nav form .submit:hover{
 /* slider */
 #slider{
     background-image: linear-gradient(180deg,#B2D3EE,#F6FAFD);
+    padding-top: 50px;
 }
 #slider .container-fluid{
- transform: translateY(-34%);
+ transform: translateY(-45%);
+ /* margin-top: -100px; */
 }
 #slider .splide{
     min-width: 656px;
@@ -155,7 +159,7 @@ li.splide__slide{
     opacity: 0;
     transition-duration: 0.6s;
 }
-#slider .card:hover .icon-box{
+#slider li.is-active.is-visible .card:hover .icon-box{
     top: 50%;
     transform: translateY(-50%);
     gap: 15px;
@@ -176,12 +180,15 @@ li.splide__slide{
     align-items: center;
     
 }
+#slider .card .icon-box a:hover{
+    background-color: var(--btn-hover-color);
+}
 #slider .card .icon-box a i{
     font-size: 18px;
     color: var(--card-body-color);
     
 }
-.card-body{
+#slider .card-body{
     padding: 0 30px 30px 30px;
     background-color: var(--card-body-color);
 }
@@ -190,7 +197,7 @@ li.splide__slide{
     font-size: 22px;
     font-weight: 600;
 }
-.card-inline-image{
+#slider .card-inline-image{
     width: 33px;
     height: 33px;
 }
@@ -243,6 +250,7 @@ ul.splide__pagination li button.is-active{
 }
 #latest-apesode .card:hover{
     border-color: transparent;
+    transform: scale(1.03);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .image-icon{
@@ -355,6 +363,46 @@ ul.splide__pagination li button.is-active{
     display: inline-block;
 }
 /* -/latest-apesode */
+
+
+/* topic */
+#topic{
+    padding-top: 80px;
+}
+#topic .card{
+    overflow: hidden;
+    border: none;
+    transition-duration: 0.4s;
+}
+#topic .card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#topic .card .card-img-top{
+    height: 210px;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+}
+#topic .card:hover .card-img-top{
+    transform: scale(0.9);
+}
+#topic .card .card-title{
+    font-family: var(--sono-font);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--btn-hover-color);
+}
+#topic .card .tag{
+    font-family: var(--sono-font);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    padding: 5px 8px;
+    background-color: var(--primary-color);
+}
+#topic .card .card-body{
+    padding: 15px 20px;
+}
+/* -/topic */
 
 /* -/main */
 

@@ -9,4 +9,10 @@ let splide = new Splide( '.splide', {
   } );
   
   splide.mount();
+
+
+  VanillaTilt.init(document.querySelectorAll(".topic-card"), {
+		max: 25,
+		speed: 400
+	});
   
