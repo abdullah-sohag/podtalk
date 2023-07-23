@@ -492,6 +492,110 @@ ul.splide__pagination li button.is-active{
 
 /* -/main */
 
+/* footer */
+footer{
+    padding-top: 100px;
+    background-image: url('image/templatemo-wave-footer.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+footer .raper-form{
+    max-width: 485px;
+    margin: 0 auto;
+}
+footer .raper-form .form-head{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--sono-font);
+    color: var(--btn-hover-color);
+    padding: 8px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    left: 50%;
+    /* top: -50%; */
+    transform: translate(-50%, -50%);
+    
+}
+footer .raper-form form{
+    border: 1px solid var(--secondary-color);
+    padding: 40px;
+    
+}
+footer .raper-form form input{
+    font-size: 16px;
+    font-family: var(--sono-font);
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+footer .raper-form form input:focus,footer .raper-form form input:active{
+    box-shadow: none;
+}
+footer .raper-form form button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--sono-font);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0 0 12px 12px;
+    padding: 10px 20px;
+}
+footer .raper-form form button:hover{
+    background-color: var(--btn-hover-color);
+    color: var(--secondary-color);
+}
+.footer-title{
+    font-family: var(--sono-font);
+    font-size: 22px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.contact-contain ul{
+    list-style-type: none;
+    padding: 0;
+}
+.contact-contain ul li{
+    font-size: 16px;
+    font-family: var(--sono-font);
+    color: var(--secondary-color);
+}
+.contact-contain ul li a{
+    color: var(--secondary-color);
+}
+.social-contain a {
+    width: 30px;
+    height: 30px;
+    background-color: var(--theme-color);
+}
+.social-contain a:hover{
+    background-color: var(--primary-color);
+}
+.social-contain a i{
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+.footer-logo{
+    width: 120px;
+    height: 120px;
+}
+.footer-nav a{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: var(--monserrat-font);
+    color: var(--secondary-color);
+}
+.footer-nav a:hover{
+    color: var(--primary-color);
+}
+.copy-right-text {
+    font-size: 16px;
+    font-family: var(--monserrat-font);
+    color: var(--secondary-color);
+    margin-top: 25px;
+}
+/* -/footer */
+
 
 
 /* ----- */
@@ -564,7 +668,7 @@ ul.splide__pagination li button.is-active{
 
 /* ---- */
 #slider .splide{
-    min-width: ;: 803px;
+    min-width: 803px;
 }
 #slider .card{
     width: 261px;
