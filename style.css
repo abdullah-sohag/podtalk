@@ -9,7 +9,8 @@ html{
     --sono-font: 'Sono', sans-serif;
     --monserrat-font: 'Montserrat', sans-serif;
     --btn-hover-color: #00cc99;
-    --card-body-color: #F0F8FF;
+    --card-body-color: #d1dce7;
+    --card-profile-name-color: #837275;
 }
 
 
@@ -215,6 +216,145 @@ ul.splide__pagination li button.is-active{
     background-color: var(--primary-color);
 }
 /* -/slider */
+
+/* latest-apesode */
+#latest-apesode{
+    padding-top: 80px;
+}
+.head{
+    margin-bottom: 48px;
+}
+.head h3 span{
+    font-size: 2.8rem;
+    font-weight: 600;
+    font-family: var(--sono-font);
+    background-color: var(--card-body-color);
+    padding: 10px 25px;
+}
+.head h3 hr{
+    color: var(--card-body-color);
+    height: 2.5px;
+}
+#latest-apesode .card{
+    padding: 30px;
+    border-radius: 30px;
+    border: 2px solid var(--btn-hover-color);
+    transition-duration: 0.5s;
+}
+#latest-apesode .card:hover{
+    border-color: transparent;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.image-icon{
+    max-width: 112px;
+    max-height: 112px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.image-icon a{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image-icon a i{
+    font-size: 32px;
+    color: var(--btn-hover-color);
+}
+.image-icon a i:hover{
+    color: var(--primary-color);
+}
+.left-content .subscribe-btn{
+    background-color: var(--primary-color);
+    font-family: var(--monserrat-font);
+    font-weight: 600;
+    font-size: .9rem;
+    color: var(--secondary-color);
+    display: inline-block;
+    padding: 7px 15px;
+}
+.left-content .subscribe-btn:hover{
+    background-color: var(--btn-hover-color);
+}
+.episode-time .time,.episode-time .episode{
+    font-size: 14px;
+    font-family: var(--monserrat-font);
+    font-weight: 400;
+}
+.episode-time .time i{
+    color: var(--btn-hover-color);
+}
+.episode-time .episode span{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 11px;
+    padding: 5px;
+} 
+
+.center-content h3{
+    font-size: 1.25rem;
+    font-family: var(--sono-font);
+    font-weight: 600;
+    color: var(--btn-hover-color);
+}
+.center-content h3:hover{
+    color: var(--primary-color);
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+}
+.profile .name-surname{
+    font-size: 1rem;
+    font-family: var(--sono-font);
+    font-weight: 300;
+}
+.profile .name-surname .name img{
+    width: 20px;
+    height: 20px;
+}
+.profile .name-surname .surname{
+    font-weight: 700;
+    color: var(--card-profile-name-color);
+}
+.center-content p{
+    font-size: 14px;
+    font-family: var(--monserrat-font);
+    color: var(--card-profile-name-color);
+}
+.center-bootom span{
+    font-size: 0.9rem;
+    color: var(--card-profile-name-color);
+    font-family: var(--sono-font);
+}
+.center-bootom span i{
+    color: var(--btn-hover-color);
+}
+.center-bootom span:hover {
+    color: var(--btn-hover-color);
+}
+.center-bootom span:hover i{
+    color: var(--primary-color);
+}
+.card-icon-content a{
+    background-color: var(--theme-color);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.card-icon-content a:hover{
+    background-color: var(--primary-color);
+}
+.card-icon-content a i{
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    display: inline-block;
+}
+/* -/latest-apesode */
 
 /* -/main */
 
