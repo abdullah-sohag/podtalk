@@ -27,3 +27,22 @@ let splide = new Splide( '.splide', {
     loop: true,
   });
   
+
+  window.addEventListener('load',()=>{
+    
+    const loader = document.querySelector('#loader')
+    loader.classList.add('loader--hiden')
+    setTimeout(hideLoder,1000)
+
+    function hideLoder (){
+        loader.classList.add('lodar--none')
+}
+
+
+loader.addEventListener('transitionend',()=>{
+     // document.body.removeChild(loader)
+
+     loader.remove()
+})
+
+})
