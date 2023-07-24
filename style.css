@@ -442,6 +442,7 @@ ul.splide__pagination li button.is-active{
     color: var(--secondary-color);
     padding: 5px 8px;
     background-color: var(--primary-color);
+    text-decoration: none;
 }
 #topic .card .card-body{
     padding: 15px 20px;
