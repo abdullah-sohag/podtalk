@@ -1,0 +1,83 @@
+/* heater */
+header .container{
+    height: 60%;
+}
+
+/* -/heater */
+
+/* main */
+
+/* story */
+#story{
+    padding-top: 100px;
+}
+.about-img{
+    border-radius: 30px;
+}
+.para p{
+    font-size: 16px;
+    font-family: var(--monserrat-font);
+    color: var(--card-profile-name-color);
+}
+/* -/story */
+
+/* meet */
+#meet{
+    padding-top: 100px;
+}
+.card{
+    border: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+.icon-box{
+    bottom: 0;
+    transition-duration: 0.5s;
+    top: 60%;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.card:hover .icon-box{
+    z-index: 1;
+    visibility: visible;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    top: 3px;
+    height: max-content;
+    right: 5px;
+}
+.icon-box a{
+    padding: 10px 12px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+}
+.icon-box a i{
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+.card-img-overlay{
+    top: 65%;
+    background-color: var(--secondary-color);
+}
+.card-title{
+    font-size: 28px;
+    font-family: var(--sono-font);
+    color: var(--theme-color);
+    font-weight: 600;
+}
+.varefide{
+    width: 20px;
+    height: 20px;
+}
+.tag-content span{
+    font-size: 12px;
+    font-family: var(--sono-font);
+    font-weight: 600;
+    color: var(--secondary-color);
+    padding: 5px 8px;
+}
+/* -/meet */
+/* -/ main */

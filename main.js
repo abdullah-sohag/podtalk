@@ -17,7 +17,7 @@ let splide = new Splide( '.splide', {
 	});
 
 
-  AOS.init();
+ 
 
 
   let typed = new Typed('.auto-typx', {
@@ -28,21 +28,4 @@ let splide = new Splide( '.splide', {
   });
   
 
-  window.addEventListener('load',()=>{
-    
-    const loader = document.querySelector('#loader')
-    loader.classList.add('loader--hiden')
-    setTimeout(hideLoder,1000)
-
-    function hideLoder (){
-        loader.classList.add('lodar--none')
-}
-
-
-loader.addEventListener('transitionend',()=>{
-     // document.body.removeChild(loader)
-
-     loader.remove()
-})
-
-})
+  

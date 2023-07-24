@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PoD Talk</title>
+    <title>PoD Talk - Home Page</title>
     <script src="https://kit.fontawesome.com/94ecb70494.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +57,7 @@
                           <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
+                          <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -733,5 +733,29 @@
     <script src="splide.min.js"></script>
     <script src="bootstrap.min.js"></script>
     <script src="main.js"></script>
+
+    <script>
+      window.addEventListener('load',()=>{
+    
+        const loader = document.querySelector('#loader')
+        loader.classList.add('loader--hiden')
+        setTimeout(hideLoder,1000)
+    
+        function hideLoder (){
+            loader.classList.add('lodar--none')
+    }
+    
+    
+    loader.addEventListener('transitionend',()=>{
+         // document.body.removeChild(loader)
+    
+         loader.remove()
+    })
+    
+    })
+
+    AOS.init();
+    </script>
+    
 </body>
 </html>
