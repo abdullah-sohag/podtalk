@@ -1,0 +1,62 @@
+header .container{
+    height: 40%;
+}
+
+#getTouch{
+    padding-top: 80px;
+}
+#getTouch iframe{
+    min-height: 300px;
+    border-radius: 30px;
+}
+.content-touch h3{
+    font-size: 32px;
+    font-family: var(--sono-font);
+    font-weight: 600;
+}
+.content-touch ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.content-touch ul li{
+    font-family: var(--sono-font);
+    font-size: 16px;
+    border-bottom: 1px solid var(--card-profile-name-color);
+}
+.content-touch ul li a{
+    font-family: var(--monserrat-font);
+    color: var(--card-profile-name-color);
+}
+
+#story{
+    padding-top: 80px;
+}
+
+.inp-fild label{
+    color: var(--card-profile-name-color);
+    font-size: 10px;
+    font-family: var(--sono-font);
+    /* top: 0; */
+    left: 12px;
+    visibility: hidden;
+}
+.inp-fild .view{
+    top: 0;
+    visibility: visible;
+}
+.inp-fild textarea{
+    resize: none;
+}
+.submit-btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--sono-font);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    width: 157px;
+}
+.submit-btn:hover{
+    background-color: var(--btn-hover-color);
+    color: var(--secondary-color);
+}

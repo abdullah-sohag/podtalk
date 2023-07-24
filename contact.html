@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PoD Talk - About Page</title>
+    <title>PoD Talk - Contact Us</title>
     <script src="https://kit.fontawesome.com/94ecb70494.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="splide.min.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="contact-style.css">
 </head>
 <body>
 
@@ -58,7 +58,7 @@
                           <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active" href="about.html">About</a>
+                          <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -72,8 +72,8 @@
                           </ul>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                          </li>
                       </ul>
 
                       <a href="#" class="start-btn btn rounded-pill">Get Started</a>
@@ -101,8 +101,37 @@
 
 <!-- main -->
 <main>
+
+    <!-- get in touch -->
+    <section id="getTouch">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div data-aos="fade-right" class="col-lg-6">
+                    <div class="content-touch">
+                        <h3 class="mb-4">We love to help you. Get in touch</h3>
+
+                        <ul>
+                            <li class=" pb-3 mb-4"><strong>Phone:</strong> <a href="tel:+0100200340" class=" text-decoration-none"> 010-020-0340</a></li>
+                            <li class=" pb-3 mb-4"><strong>Email:</strong> <a href="mailto:inquiry@pod.co"> inquiry@pod.co</a></li>
+                            <li class=" pb-3 mb-4"><strong>Location:</strong> 1355 Market Street, Downtown San Francisco, California</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left" class="col-lg-6">
+                    <iframe class=" w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14529.34835160836!2d90.78181004999999!3d24.43908755000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1690195189781!5m2!1sen!2sbd"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- get in touch -->
  
-    <!-- our story -->
+    <!-- contact form -->
     <section id="story">
         <div class="container">
             
@@ -111,138 +140,62 @@
 
                     <div class="head">
 
-                        <h3 class="d-flex justify-content-center align-items-center"><span style="flex-grow: 1" class=" rounded-pill">Our story</span> <hr style="flex-grow: 9"></h3>
+                        <h3 class="d-flex justify-content-center align-items-center"><span style="flex-grow: 1" class=" rounded-pill">Contact Form</span> <hr style="flex-grow: 9"></h3>
                 
                       </div>
 
-                    <div class="para">
-                        <p>Pod Talk HTML CSS Template is made by Bootstrap v5.2.2 framework. You are allowed to modify and use this template for your business websites.</p>
-                        <p>You are not allowed to redistribute the downloadable template ZIP file on any other website without a permission. Please contact TemplateMo website for further information. Thank you.</p>
-                    </div>
-                    <img src="image\medium-shot-young-people-recording-podcast.jpg" class="img-fluid about-img" alt="image">
+                      <form class="row g-3">
+
+                        <div class="col-md-6">
+                            
+                            <div class="inp-fild position-relative">
+                                <input type="text" class="form-control" id="inputPassword4" placeholder="Full Name">
+                                <label class="position-absolute">Full name</label>
+                            </div>
+
+                          </div>
+                          
+                        <div class="col-md-6">
+                          
+                          <div class="inp-fild position-relative">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+                            <label class="position-absolute">Email Address</label>
+                          </div>
+
+                        </div>
+
+                        
+                        <div class="col-12">
+                          
+                          <div class="inp-fild position-relative">
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Company">
+                            <label class="position-absolute">Company</label>
+                          </div>
+
+                        </div>
+
+                        <div class="col-12">
+
+                          <div class="inp-fild position-relative">
+                            <textarea class="form-control" name="message" id="inputAddress2" cols="30" rows="4" placeholder="Message"></textarea>
+                            <label class="position-absolute">Message</label>
+                          </div>
+
+                          
+                        </div>
+
+                        
+                        <div class="col-12 d-flex justify-content-end">
+                          <button type="submit" class="btn submit-btn rounded-pill">Sign in</button>
+                        </div>
+                      </form>
+
                   </div>
               </div>
 
         </div>
     </section>
-    <!-- -/ our story -->
-
-    <!-- meet -->
-    <section id="meet">
-        <div class="container">
-
-            <div class="head">
-
-                <h3 class="d-flex justify-content-center align-items-center"><span style="flex-grow: 1" class=" rounded-pill">Meet podcaters</span> <hr style="flex-grow: 9"></h3>
-        
-              </div>
-
-              <div class="row g-2">
-
-                <div data-aos="flip-up" data-aos-duration="1700" data-aos-delay="300" class="col-md-6 col-lg-3">
-                    
-
-                      <div data-tilt class="card bg-dark text-white position-relative overflow-hidden meet-card">
-                        <img src="image\profile\cute-smiling-woman-outdoor-portrait.jpg" class="card-img" alt="Image">
-
-                        <div class="icon-box position-absolute">
-
-                            <a class=" rounded-circle" href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a class=" rounded-circle" href="#"><i class="fa-brands fa-twitter"></i></a>
-                            <a class=" rounded-circle" href="#"><i class="fa-brands fa-linkedin"></i></a>
-
-                        </div>
-                        
-                        <div class="card-img-overlay">
-                          <h5 class="card-title mb-3 mt-3">Taylor <img class=" d-inline-block varefide" src="image\verified.png" alt="image"></h5>
-                          
-                          <div class="tag-content">
-                            <span class="btn btn-primary rounded-pill">Modeling</span>
-                            <span class="btn btn-primary rounded-pill">Fashion</span>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-
-                <div data-aos="flip-up" data-aos-duration="1800" data-aos-delay="300" class="col-md-6 col-lg-3">
-                    
-
-                    <div data-tilt class="card bg-dark text-white position-relative overflow-hidden meet-card">
-                      <img src="image\profile\cute-smiling-woman-outdoor-portrait.jpg" class="card-img" alt="Image">
-
-                      <div class="icon-box position-absolute">
-
-                          <a class=" rounded-circle" href="#"><i class="fa-brands fa-facebook"></i></a>
-                          <a class=" rounded-circle" href="#"><i class="fa-brands fa-twitter"></i></a>
-                          <a class=" rounded-circle" href="#"><i class="fa-brands fa-linkedin"></i></a>
-
-                      </div>
-                      
-                      <div class="card-img-overlay">
-                        <h5 class="card-title mb-3 mt-3">Taylor <img class=" d-inline-block varefide" src="image\verified.png" alt="image"></h5>
-                        
-                        <div class="tag-content">
-                          <span class="btn btn-primary rounded-pill">Modeling</span>
-                          <span class="btn btn-primary rounded-pill">Fashion</span>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-
-                <div data-aos="flip-up" data-aos-duration="1900" data-aos-delay="300" class="col-md-6 col-lg-3">
-                        
-
-                    <div data-tilt class="card bg-dark text-white position-relative overflow-hidden meet-card">
-                    <img src="image\profile\cute-smiling-woman-outdoor-portrait.jpg" class="card-img" alt="Image">
-
-                    <div class="icon-box position-absolute">
-
-                        <a class=" rounded-circle" href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a class=" rounded-circle" href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a class=" rounded-circle" href="#"><i class="fa-brands fa-linkedin"></i></a>
-
-                    </div>
-                    
-                    <div class="card-img-overlay">
-                        <h5 class="card-title mb-3 mt-3">Taylor <img class=" d-inline-block varefide" src="image\verified.png" alt="image"></h5>
-                        
-                        <div class="tag-content">
-                        <span class="btn btn-primary rounded-pill">Modeling</span>
-                        <span class="btn btn-primary rounded-pill">Fashion</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-
-                <div data-aos="flip-up" data-aos-duration="2000" data-aos-delay="300" class="col-md-6 col-lg-3">
-                            
-
-                    <div data-tilt class="card bg-dark text-white position-relative overflow-hidden meet-card">
-                    <img src="image\profile\cute-smiling-woman-outdoor-portrait.jpg" class="card-img" alt="Image">
-
-                    <div class="icon-box position-absolute">
-
-                        <a class=" rounded-circle" href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a class=" rounded-circle" href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a class=" rounded-circle" href="#"><i class="fa-brands fa-linkedin"></i></a>
-
-                    </div>
-                    
-                    <div class="card-img-overlay">
-                        <h5 class="card-title mb-3 mt-3">Taylor <img class=" d-inline-block varefide" src="image\verified.png" alt="image"></h5>
-                        
-                        <div class="tag-content">
-                        <span class="btn btn-primary rounded-pill">Modeling</span>
-                        <span class="btn btn-primary rounded-pill">Fashion</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-
-              </div>
-        </div>
-    </section>
-    <!-- -/meet -->
+    <!-- -/ contact form -->
 
 </main>
 <!-- -/main -->
@@ -339,7 +292,7 @@
     <script src="vanilla-tilt.min.js"></script>
     <script src="splide.min.js"></script>
     <script src="bootstrap.min.js"></script>
-    <script src="about-main.js"></script>
+    <script src="contact-main.js"></script>
 
     <script>
         window.addEventListener('load',()=>{
