@@ -15,4 +15,7 @@ let splide = new Splide( '.splide', {
 		max: 25,
 		speed: 400
 	});
+
+
+  AOS.init();
   
