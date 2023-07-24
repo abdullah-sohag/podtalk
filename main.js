@@ -18,4 +18,12 @@ let splide = new Splide( '.splide', {
 
 
   AOS.init();
+
+
+  let typed = new Typed('.auto-typx', {
+    strings: ['fav podcasts', 'trending episodes','fav Topics','lastest episodes'],
+    typeSpeed: 150,
+    backSpeed: 100,
+    loop: true,
+  });
   
